@@ -1,0 +1,19 @@
+import React from 'react';
+import { MdEmail } from 'react-icons/md';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+
+const Footer = () => {
+  return (
+    <div className="flex justify-center items-center gap-10 h-20 bg-slate-300" id="footer">
+        <MdEmail />
+        <BsLinkedin/>
+        <BsGithub/>
+        <div>
+            <p>2022 - Developed by Chima Ikegbulam</p>
+        </div>
+    </div>
+  )
+}
+
+export default Footer;
