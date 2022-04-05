@@ -12,7 +12,7 @@ import Skills from './components/View/Skills/Skills';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App ">
         
         <Navigation />
         <Home />

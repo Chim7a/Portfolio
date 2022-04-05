@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="text-2xl font-bold text-center">
         <h1>My Dev. Skills</h1>
     </div>
-    <div className="flex flex-row justify-center gap-5 m-10">
+    <div className="grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 justify-center gap-5 ml-20 mr-20 mt-5 mb-5">
         <img src="https://i.stack.imgur.com/PgcSR.png" height="auto" width="80px" alt="HTML" />
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63s_TKNEbSDyCnpko2aIn2c4cCiuvh1chFaxyXPpChmvugRWHqyje2cMi-d0FuEYkYu8&usqp=CAU" height="auto" width="90px" alt="CSS" />
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFFjtYIl7BYgTkanKFI__Vaqbzr5JkKjVxwAmJcdXceW16zqKjLfCa3Xj2BrnorHcLd4&usqp=CAU" height="auto" width="90px" alt="React" />

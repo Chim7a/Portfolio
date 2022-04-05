@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 
 const Navigation = () => {
   return (
-    <div className="bg-slate-300 flex flex-row sm:justify-center md:justify-between lg:justify-between pl-20 pr-20 items-center h-20 ">
+    <div className=" bg-slate-300 flex flex-row sm:justify-center md:justify-between lg:justify-between pl-20 pr-20 items-center h-20 ">
     <Tilt className="text-2xl font-bold">
     <Logo />
     </Tilt>
