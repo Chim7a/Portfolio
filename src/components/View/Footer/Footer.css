@@ -1,0 +1,32 @@
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.footer-items {
+    display: flex;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+@media  screen and (max-width: 780px) { 
+    .footer-icons {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 25px;
+    }
+
+    .footer-items {
+        display: grid;
+        height: auto;
+        width: 100%;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+
+}

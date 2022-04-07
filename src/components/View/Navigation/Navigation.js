@@ -1,38 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import Logo from './Logo';
+import styled from 'styled-components';
 import Tilt from 'react-parallax-tilt';
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import './Navigation.css';
 
 
 const Navigation = () => {
+  const [toggle, setToggle] = useState (false);
+
+  const changeToggle = () => setToggle(!toggle);
+
   return (
-    <div className=" bg-slate-300 flex flex-row sm:justify-center md:justify-between lg:justify-between pl-20 pr-20 items-center h-20 ">
-    <Tilt className="text-2xl font-bold">
-    <Logo />
-    </Tilt>
-    <nav class="sm:hidden md:flex lg:flex">
-    <Link to="#home">
-    <button href="#" className="  font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</button>
-    </Link>
-    <Link to="#about">
-    <button href="#" className="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">About</button>
-    </Link>
-    <Link to="#skills">
-    <button href="#" className="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Skills</button>
-    </Link>
-    <Link to="#projects">
-    <button href="#" className="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</button>
-    </Link>
-    <Link to="#contact">
-    <button href="#" className="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Contact</button>
-    </Link>
-    
-    
-    
-    
-    
-    </nav>
+    <>
+    <div className="navbar bg-slate-300">
+    <div className="navbar-mobile-menu">
+      <h3><span className="nav-name">Chima</span> Ikegbulam</h3>
     </div>
+    <nav className={toggle ? "nav-links-mobile" : "nav-links"}>
+      <a href="/dashboard" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
+      <a href="/team" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">About</a>
+      <a href="/Skills" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Skills</a>
+      <a href="/reports" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Contact me</a>
+    </nav>
+
+    <div className="mobile-icons navbar-mobile-menu" onClick={changeToggle} >
+       {toggle ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
+    </div>
+    </div>
+    
+    </>
   )
 }
 
