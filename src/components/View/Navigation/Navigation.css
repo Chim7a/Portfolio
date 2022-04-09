@@ -47,13 +47,14 @@
         top: 72px;
         left: 0;
         text-align: center;
-        background-color: rgba(203, 213, 225, 0.9);
+        background-color: rgba(55, 65, 81, 0.8);
         width: 100%;
         
     }
 
     .mobile-icons {
         display: flex;
+        cursor: pointer;
     }
 
 
