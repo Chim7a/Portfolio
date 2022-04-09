@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div className="flex flex-col p-20" id="home">
+    <div className="home" id="home">
         <div className="text-3xl font-bold">
-        <h1 className="">
+        <h1>
             I am <span className="text-rose-600">Chima Ikegbulam</span>.
         </h1>
-        <h1 className="">
-           A Frontend-Developer ready to turn visions <br/>into reality.
+        <h1>
+           A Frontend-Developer ready to turn ideas <br/>into reality.
         </h1>
         </div>
         <div className="flex flex-row gap-3 mt-3 text-white">

@@ -1,0 +1,31 @@
+.project {
+    display: grid;
+    justify-content: center;
+    margin: 40px;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.project-title {
+    font-size: 1rem;
+}
+
+.project__container {
+    display: flex;
+    gap: 250px;
+}
+
+
+@media  screen and (max-width: 780px) { 
+.project {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.project__container {
+    display: grid;
+    gap: 10px;
+}
+
+
+}

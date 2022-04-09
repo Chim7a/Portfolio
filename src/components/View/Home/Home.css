@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    padding: 0px 40px;
+    margin-top: 50px;
+    background-image: url("https://wi.wallpapertip.com/wsimgs/49-494594_line-wallpaper-electric-blue.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    
+}

@@ -2,13 +2,13 @@
     display: flex;
     gap: 20px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .footer-items {
     display: flex;
     height: auto;
     width: 100%;
-    font-weight: bold;
     padding: 20px;
 }
 
@@ -18,13 +18,13 @@
         display: flex;
         justify-content: space-evenly;
         font-size: 25px;
+        font-weight: bold;
     }
 
     .footer-items {
         display: grid;
         height: auto;
         width: 100%;
-        font-weight: bold;
         padding: 20px;
     }
 

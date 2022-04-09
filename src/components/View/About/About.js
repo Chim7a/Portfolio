@@ -8,7 +8,7 @@ const About = () => {
             <div className="text-center mt-5">
             <span className="text-3xl font-bold">ABOUT ME</span>
             </div>
-        <div className="text-2xl m-5">
+        <div className="text-2xl p-10">
         <p> A highly motivated, self-driven and passionate frontend web developer. Strong knowledge in creating 
           solutions to complex problems while developing innovative projects with simplicity. 
           Experienced in creating fast and responsive websites with tasks executed before deadline, 
