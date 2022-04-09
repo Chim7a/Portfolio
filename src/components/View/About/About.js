@@ -4,7 +4,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center bg-rose-600 text-white " id="about">
+    <div className="flex flex-col justify-center bg-rose-700 text-white " id="about">
             <div className="text-center mt-5">
             <span className="text-3xl font-bold">ABOUT ME</span>
             </div>

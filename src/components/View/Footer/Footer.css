@@ -3,6 +3,7 @@
     gap: 20px;
     font-size: 25px;
     font-weight: bold;
+    background-color: rgb(190 18 60);
 }
 
 .footer-items {
@@ -10,6 +11,8 @@
     height: auto;
     width: 100%;
     padding: 20px;
+    background-color: rgb(190 18 60);
+    color: white;
 }
 
 

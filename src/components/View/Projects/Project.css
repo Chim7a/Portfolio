@@ -1,31 +1,41 @@
 .project {
     display: grid;
     justify-content: center;
-    margin: 40px;
+    padding: 20px 20px;
     gap: 10px;
+    height: auto;
+    width: 100%;
     font-size: 1.2rem;
+    color: white;
+    background-color: rgba(225, 29, 72);
 }
 
 .project-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .project__container {
     display: flex;
     gap: 250px;
+    padding: 20px;
+    background-color: rgb(190 18 60);
+    box-shadow: 1px 3px #000;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 
 @media  screen and (max-width: 780px) { 
 .project {
-    display: grid;
-    justify-content: flex-start;
+    display: grid; 
 }
 
 .project__container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
     gap: 10px;
 }
-
 
 }

@@ -7,7 +7,7 @@ const Project = () => {
     <div className="project">
         <div className="project__container">
         <div>
-        <h2 className="text-2xl font-bold">Amazon Clone</h2>
+        <h2 className="text-2xl font-bold pb-5">Amazon Clone</h2>
         <img src="http://www.ddesignerr.com/wp-content/uploads/2013/06/Citycare.png" alt="#" />
         <p>This section talks about the app and whatever shortcomings.</p>
 
@@ -37,7 +37,7 @@ const Project = () => {
         
         <div className="project__container">
         <div>
-        <h2 className="text-2xl font-bold">Car Store Webpage</h2>
+        <h2 className="text-2xl font-bold pb-5">Car Store Webpage</h2>
         <img src="http://www.ddesignerr.com/wp-content/uploads/2013/06/Citycare.png" alt="#" />
         <p>This section talks about the app and whatever shortcomings.</p>
 
@@ -66,7 +66,7 @@ const Project = () => {
         </div>
         <div className="project__container">
         <div>
-        <h2 className="text-2xl font-bold">Robo App</h2>
+        <h2 className="text-2xl font-bold pb-5">Robo App</h2>
         <img src="./amazon-project.jpg" alt="#" />
         <p>This section talks about the app and whatever shortcomings.</p>
 
