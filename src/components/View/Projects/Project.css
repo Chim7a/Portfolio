@@ -12,16 +12,34 @@
 
 .project-title {
     font-size: 1.3rem;
+    padding: 10px 0;
 }
 
 .project__container {
     display: flex;
-    gap: 250px;
+    gap: 20px;
     padding: 20px;
     background-color: rgb(190 18 60);
     box-shadow: 1px 3px #000;
     border: 1px solid;
     border-radius: 5px;
+}
+
+.project__right, .project__left {
+height: auto;
+width: 100%;
+}
+
+.project__icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    cursor: pointer;
+
 }
 
 

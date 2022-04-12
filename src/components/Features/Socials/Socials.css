@@ -1,0 +1,29 @@
+.icon {
+    display: flex;
+    font-size: 44px;
+    animation: float 5s ease-in-out
+    infinite;
+}
+
+.icon:hover {
+    background-color: rgba(225, 29, 72, 0.8);
+    border-radius: 50px;
+}
+    .ri-twitter-circle-line{
+    animation-delay: 1s;
+    }
+    .ri-facebook-line {
+    animation-delay: 2s;
+    }
+    @keyframes float {
+    0%{
+    transform: translateY(0);
+    }
+    50%
+    {
+    transform: translateY(-15px);
+    }
+    100%{
+    transform: translatey(0);
+    }
+}
