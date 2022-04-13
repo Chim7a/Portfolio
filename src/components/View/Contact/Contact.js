@@ -8,7 +8,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="contact__container" id="contact">
+      <div className="contact__container grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 " id="contact">
 
 
       {/* Address info section */}
@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
         <div className="info__details">
           <h4 className="text-2xl font-bold text-neutral-400">Email Me</h4>
-          <a href="mailto:chimalawrence11@gmail.com" alt="email-link">chimalawrence11@gmail.com</a>
+          <a className="email__text" href="mailto:chimalawrence11@gmail.com" alt="email-link">chimalawrence11@gmail.com</a>
         </div>
         </div>
 

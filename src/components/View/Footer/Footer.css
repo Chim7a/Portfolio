@@ -1,9 +1,5 @@
 .footer-icons {
-    display: flex;
-    gap: 20px;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: rgb(190 18 60);
+    margin: 20px 1px 0 0;
 }
 
 .footer-items {
@@ -11,7 +7,7 @@
     height: auto;
     width: 100%;
     padding: 20px;
-    background-color: rgb(190 18 60);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
 

@@ -3,10 +3,11 @@
     font-size: 44px;
     animation: float 5s ease-in-out
     infinite;
+    padding: 10px 15px 0 0;
 }
 
 .icon:hover {
-    background-color: rgba(225, 29, 72, 0.8);
+    color: rgba(225, 29, 72, 0.8);
     border-radius: 50px;
 }
     .ri-twitter-circle-line{

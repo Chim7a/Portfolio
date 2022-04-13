@@ -1,0 +1,9 @@
+.skills__container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.skill__box {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 60px 60px 60px;
+    padding: 40px;
+}
