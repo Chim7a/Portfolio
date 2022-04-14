@@ -7,10 +7,7 @@
     width: 100%;
     font-size: 1.2rem;
     color: white;
-    background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/29/28/hqDC7T.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
     
 }
 
@@ -24,16 +21,21 @@
     display: flex;
     gap: 80px;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 1px solid black;
 }
 
 .project__right, .project__left {
+display: flex;
+flex-direction: column;
 height: auto;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
-padding: 20px;
+padding: 40px;
 
+}
+
+.project__left {
+    display: flex;
+    justify-content: center;
 }
 
 .project__icons {
@@ -61,5 +63,10 @@ padding: 20px;
     align-content: center;
     gap: 10px;
 }
+
+.project-title, ul, p {
+    text-align: center;
+}
+
 
 }

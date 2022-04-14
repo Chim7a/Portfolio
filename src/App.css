@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Poly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Maven+Pro&family=Poly&display=swap');
 
 * {
-    font-family: 'Emilys Candy', cursive;
-    font-family: 'Poly', serif;
+font-family: 'Maven Pro', sans-serif;
 }
-
-

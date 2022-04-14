@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="skills__container flex flex-col text-rose-600" id="skills">
     <div className="text-3xl font-bold p-10 text-center">
-        <h1>Skills</h1>
+        <h1>SKILLS</h1>
     </div>
     <div className="skill__box grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 justify-center gap-5 ml-20 mr-20 mt-5 mb-5">
         <img src="https://i.stack.imgur.com/PgcSR.png" height="auto" width="80px" alt="HTML" />

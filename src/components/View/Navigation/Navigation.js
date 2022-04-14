@@ -21,7 +21,7 @@ const Navigation = () => {
       <h3> <span className="nav-name"> Chima </span> Ikegbulam</h3>
     </div>
     <h1 className="text-2xl">
-           A <span className="role"> Frontend-Developer </span> ready to turn ideas into reality.
+           A <span className="role"> Frontend-Developer </span> on a <span className="text-rose-600"> journey </span> to turn ideas into reality.
     </h1>
     <div>
     <nav className={toggle ? "nav-links-mobile" : "nav-links"}>
