@@ -17,7 +17,7 @@
 .contact__info {
 display: flex;
 flex-wrap: wrap;
-justify-content: start;
+justify-content: flex-start;
 align-items: center;
 padding: 20px;
 background-color: rgba(0, 0, 0, 0.5);
@@ -40,7 +40,7 @@ z-index: 100;
 
 .info__details {
     margin-top: 5px;
-    text-align: start;
+    text-align: flex-start;
 }
 
 .social__icon {
@@ -68,7 +68,7 @@ z-index: 100;
     .contact__info {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         padding: 20px;
         background-color: rgba(115, 115, 115, 0.3);

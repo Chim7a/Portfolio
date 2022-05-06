@@ -31,9 +31,9 @@ const Contact = () => {
         <div className="info__details">
           <h4 className="text-2xl font-bold text-neutral-300">Social Profiles</h4>
           <div className="social__icon text-neutral-400">
-            <a><TiIcons.TiSocialTwitter /></a>
-            <a><TiIcons.TiSocialFacebookCircular /> </a>
-            <a><TiIcons.TiSocialGithubCircular /> </a>
+            <><TiIcons.TiSocialTwitter /></>
+            <><TiIcons.TiSocialFacebookCircular /> </>
+            <><TiIcons.TiSocialGithubCircular /> </>
           </div>
         </div>
         </div>

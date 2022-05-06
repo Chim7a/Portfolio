@@ -17,7 +17,7 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Amazon Clone</h2>
         <img src={amazon} alt="#" />
         <span className="project__icons"> 
-          <a><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
+          <a href="#/" alt="live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
           <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
         </span>
         </div>
@@ -58,7 +58,7 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
         <img src={todo} alt="#" />
         <span className="project__icons"> 
-          <a><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
+          <a href="#/" alt="live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
           <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
@@ -94,7 +94,7 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
         <img src={movie} alt="#" />
         <span className="project__icons"> 
-          <a><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
+          <a href="#/" alt="live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
           <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
