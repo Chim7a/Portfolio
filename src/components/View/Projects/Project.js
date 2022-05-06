@@ -1,5 +1,7 @@
 import React from 'react';
 import amazon from './amazon.jpg';
+import todo from './todo.png';
+import movie from './movie.png';
 import './Project.css';
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
@@ -31,12 +33,10 @@ const Project = () => {
             <li>React</li>
         </ul>
         <h2 className="project-title font-bold">My Role</h2>
-        <p>This was a fun project that was meant to show off more of
+        <p>This was a fun project that was meant to display more of
           my technical skills. It displays my ability to work through a
           complex problem and find a solution using appropriate
-          data structures while doing so. This also tested my ability
-          to find a solution to a Graph / Matrix problem while keeping
-          run time effeciencies as close to O(1) as possible.</p>
+          data structures while doing so. </p>
 
         <h4 className="project-title font-bold">Project Difficulties </h4>
         <p>This project tested my abilites in dveloping a
@@ -56,7 +56,7 @@ const Project = () => {
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
-        <img src="https://w0.peakpx.com/wallpaper/54/502/HD-wallpaper-black-dress-omen-red-black-background-valorant.jpg" alt="#" />
+        <img src={todo} alt="#" />
         <span className="project__icons"> 
           <a><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
           <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
@@ -92,7 +92,7 @@ const Project = () => {
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
-        <img src="https://www.pixelstalk.net/wp-content/uploads/images5/Black-and-White-4K-HD-Wallpaper.jpg" alt="#" />
+        <img src={movie} alt="#" />
         <span className="project__icons"> 
           <a><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
           <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
