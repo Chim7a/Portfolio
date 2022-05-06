@@ -1,22 +1,22 @@
 import React from 'react';
-import './amazon.jpg';
+import amazon from './amazon.jpg';
 import './Project.css';
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
 
 const Project = () => {
   return (
-    <div className="project">
+    <div className="project" id='projects'>
       <span className="text-3xl text-center font-bold pb-10 text-rose-600">MY PROJECTS</span>
 
         {/* Amazon web page project */}
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Amazon Clone</h2>
-        <img src="https://camo.githubusercontent.com/1284941bfa255ed0105d5a77149267ee3e34809028f7d7130febedb3290507c9/68747470733a2f2f692e696d6775722e636f6d2f457472524f63322e706e67" alt="#" />
+        <img src={amazon} alt="#" />
         <span className="project__icons"> 
-          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-image"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
+          <a><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
+          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
         </span>
         </div>
 
@@ -26,6 +26,8 @@ const Project = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+            <li>Firebase</li>
+            <li>Context API</li>
             <li>React</li>
         </ul>
         <h2 className="project-title font-bold">My Role</h2>
@@ -49,15 +51,15 @@ const Project = () => {
         </div>
         </div>
         
-        {/* Car Webpage project  */}
+        {/* Todo-list project  */}
 
         <div className="project__container">
         <div className="project__left">
-        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Car Store Webpage</h2>
+        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
         <img src="https://w0.peakpx.com/wallpaper/54/502/HD-wallpaper-black-dress-omen-red-black-background-valorant.jpg" alt="#" />
         <span className="project__icons"> 
           <a><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
-          <a><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
+          <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
         </div>
@@ -67,32 +69,33 @@ const Project = () => {
         <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Tailwind</li>
-            <li>Styled Components</li>
-            <li>HTML</li>
-            <li>HTML</li>
+            <li>Javascript</li>
         </ul>
         <h2 className="project-title text-2xl font-bold">My Role</h2>
-        <p>Lorem hshcbsdbhjbcdhj dsjfvnkn jndkjndskjc jdjknc nkdcjskjcjs jnksjdckj kjsndkjcnkdjn ndkjnckdnck kjnkjdcnknc k
+        <p>Created functionalities such as add and delete which are useful when developing different types of projects.
         </p>
 
         <h4 className="project-title font-bold">Project Difficulties </h4>
-        <p>This section talks about the app and whatever shortcomings.</p>
+        <p>On this project, i got stuck a few times and did'nt understand the solutions provided on stack-overflow and 
+          slowed down my progress moving forward.
+        </p>
 
         <h4 className="project-title font-bold">Solution</h4>
-        <p>This section talks about the app and whatever shortcomings.</p>
+        <p>Asking questions were really helpful to progress in this project. Found courage in asking questions from mentors
+           no matter how little or silly i find them to be.
+        </p>
         </div>
         </div>
 
-        {/* Robot app div propject */}
+        {/* Movie app div propject */}
 
         <div className="project__container">
         <div className="project__left">
-        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Robo App</h2>
+        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
         <img src="https://www.pixelstalk.net/wp-content/uploads/images5/Black-and-White-4K-HD-Wallpaper.jpg" alt="#" />
         <span className="project__icons"> 
           <a><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
+          <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
         
@@ -103,20 +106,22 @@ const Project = () => {
         <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Tailwind</li>
-            <li>Tychoon</li>
-            <li>HTML</li>
-            <li>HTML</li>
+            <li>SCSS</li>
+            <li>Javascript</li>
         </ul>
         <h2 className="project-title font-bold">My Role</h2>
-        <p>Lorem hshcbsdbhjbcdhj dsjfvnkn jndkjndskjc jdjknc nkdcjskjcjs jnksjdckj kjsndkjcnkdjn ndkjnckdnck kjnkjdcnknc k
+        <p> This project involved me developing, designing and providing filter functionality of the website. 
         </p>
 
         <h4 className="project-title font-bold">Project Difficulties </h4>
-        <p>This section talks about the app and whatever shortcomings.</p>
+        <p>Time management was a hinderance in completing this task on time, as the estimated time set by myself for
+         this project was not met. </p>
 
         <h4 className="project-title font-bold">Solution</h4>
-        <p>This section talks about the app and whatever shortcomings.</p>
+        <p>To solve this issue, i resulted in breaking down tasks to be carried out and broke them into smaller units.
+          I found this to be less overwhelming as i progressed through the project. Also made sure to time myself
+           appropriately and complete task at each given time frame.
+        </p>
         </div>
         </div>
     </div>

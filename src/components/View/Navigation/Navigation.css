@@ -95,6 +95,9 @@
     .home__btn {
         display: none;
     }
+    .home__mobile__btn {
+        display: contents;
+    }
 
     .navbar-mobile-title {
         font-size: 2rem;
@@ -110,6 +113,7 @@
         padding: 20px;
         position: fixed;
         right: 0;
+        z-index: 100;
     }
 
     .mobile-icons:hover {
@@ -128,6 +132,7 @@
         text-align: center;
         background-color: rgba(0, 0, 0, 0.9);
         width: 100%;
+        z-index: 100;
         
     }
 

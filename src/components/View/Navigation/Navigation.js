@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import './Navigation.css';
@@ -12,7 +12,7 @@ const Navigation = () => {
   const changeToggle = () => setToggle(!toggle);
 
   return (
-    <div className="navbar">
+    <div className="navbar" id='home'>
     <div className="mobile-icons navbar-mobile-title" onClick={changeToggle} >
        {toggle ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
     </div>
@@ -25,12 +25,25 @@ const Navigation = () => {
     </h1>
     <div>
     <nav className={toggle ? "nav-links-mobile" : "nav-links"}>
-      <a href="/dashboard" className="link home__btn font-medium py-2 ">Home</a>
-      <a href="/dashboard" className="link home__mobile__btn font-medium py-2 ">Home</a>
-      <a href="/team" className=" link font-medium px-3 py-2 ">About me</a>
-      <a href="/team" className=" link font-medium px-3 py-2 ">My projects</a>
+      
+      <Link to='#home'>
+      <a href="/home" className="link home__btn font-medium py-2 ">Home</a>
+      </Link>
+      <Link to='#home'>
+      <a href="/home" className="link home__mobile__btn font-medium py-2 ">Home</a>
+      </Link>
+      <Link to='#about'>
+      <a href="/about" className=" link font-medium px-3 py-2 ">About me</a>
+      </Link>
+      <Link to='#projects'>
+      <a href="/my_projects" className=" link font-medium px-3 py-2 ">My projects</a>
+      </Link>
+      <Link to='#skills'>
       <a href="/Skills" className="link font-medium px-3 py-2 ">Skills</a>
-      <a href="/reports" className="link font-medium px-3 py-2 ">Contact me</a>
+      </Link>
+      <Link to='#contacts'>
+      <a href="/contact_me" className="link font-medium px-3 py-2 ">Contact me</a>
+      </Link>
     </nav>
     </div>
 

@@ -13,7 +13,7 @@ const Socials = () => {
     <a className="ri-twitter-circle-line icon "><TiIcons.TiSocialTwitter /></a>
     <a className="ri-linkedin-line icon" href="https://www.linkedin.com/in/chima-ikegbulam-b4839b204" alt="linkedin-link"><BsLinkedin/></a>
     <a className="ri-facebook-line icon"><TiIcons.TiSocialFacebookCircular /> </a>
-    <a className="ri-twitter-circle-line icon" href="https://www.linkedin.com/in/chima-ikegbulam-b4839b204" alt="github-link"><TiIcons.TiSocialGithubCircular /> </a>
+    <a className="ri-twitter-circle-line icon" href="https://github.com/Chim7a/portfolio.git" alt="github-link"><TiIcons.TiSocialGithubCircular /> </a>
     </div>
   )
 }
