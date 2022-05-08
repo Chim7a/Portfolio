@@ -15,7 +15,7 @@ const Project = () => {
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Amazon Clone</h2>
-        <img src={amazon} alt="#" />
+        <img src={amazon} alt="amazon-clone-img" />
         <span className="project__icons"> 
           <a href="https://clone-47f95.web.app" alt="amazone-live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
           <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
@@ -56,7 +56,7 @@ const Project = () => {
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
-        <img src={todo} alt="#" />
+        <img src={todo} alt="todo-app-img" />
         <span className="project__icons"> 
           <a href="https://todoapp-10363.web.app" alt="todo__list__live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
           <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
@@ -70,6 +70,7 @@ const Project = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+            <li>React</li>
         </ul>
         <h2 className="project-title text-2xl font-bold">My Role</h2>
         <p>Created functionalities such as add and delete which are useful when developing different types of projects.
@@ -92,7 +93,7 @@ const Project = () => {
         <div className="project__container">
         <div className="project__left">
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
-        <img src={movie} alt="#" />
+        <img src={movie} alt="movie-web-img" />
         <span className="project__icons"> 
           <a href="https://flixmovie-dc114.web.app" alt="live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
           <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
@@ -108,6 +109,7 @@ const Project = () => {
             <li>CSS</li>
             <li>SCSS</li>
             <li>Javascript</li>
+            <li>React</li>
         </ul>
         <h2 className="project-title font-bold">My Role</h2>
         <p> This project involved me developing, designing and providing filter functionality of the website. 
