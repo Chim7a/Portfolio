@@ -10,7 +10,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 40px;
+    padding: o 40px;
     gap: 20px;
 }
 
@@ -72,8 +72,8 @@ z-index: 100;
         align-items: center;
         padding: 20px;
         background-color: rgba(115, 115, 115, 0.3);
-        width: 90%;
-        height: 150px;
+        width: 80vw;
+        height: 170px;
         gap: 10px;
         }
     .email__text {
