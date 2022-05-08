@@ -78,7 +78,7 @@ const Project = () => {
 
         <h4 className="project-title font-bold">Project Difficulties </h4>
         <p>On this project, i got stuck a few times and did'nt understand the solutions provided on stack-overflow and 
-          slowed down my progress moving forward.
+          slowed down my progress moving forward.§
         </p>
 
         <h4 className="project-title font-bold">Solution</h4>
