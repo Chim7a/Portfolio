@@ -1,7 +1,7 @@
 .project {
     display: grid;
     justify-content: center;
-    padding: 40px 50px;
+    padding: 40px 50px 0 50px;
     height: auto;
     width: 100%;
     font-size: 1.2rem;
@@ -17,7 +17,7 @@
 
 .project__container {
     display: flex;
-    padding: 0 40px;
+    padding: 0 5px;
 }
 
 .project__right, .project__left {
