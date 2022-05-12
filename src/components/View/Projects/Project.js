@@ -17,8 +17,8 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Amazon Clone</h2>
         <img src={amazon} alt="amazon-clone-img" />
         <span className="project__icons"> 
-          <a href="https://clone-47f95.web.app" alt="amazone-live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
+          <a href="https://clone-47f95.web.app" alt="amazone-live-link" rel="noreferrer" target="_blank"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
+          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
         </span>
         </div>
 
@@ -58,8 +58,8 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
         <img src={todo} alt="todo-app-img" />
         <span className="project__icons"> 
-          <a href="https://todoapp-10363.web.app" alt="todo__list__live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
-          <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
+          <a href="https://todoapp-10363.web.app" alt="todo__list__live-link" rel="noreferrer" target="_blank"><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
+          <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
         </div>
@@ -95,8 +95,8 @@ const Project = () => {
         <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
         <img src={movie} alt="movie-web-img" />
         <span className="project__icons"> 
-          <a href="https://flixmovie-dc114.web.app" alt="live-link"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
+          <a href="#/Flix" alt="live-link" ><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
+          <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
         </span>
 
         

@@ -26,24 +26,12 @@ const Navigation = () => {
     <div>
     <nav className={toggle ? "nav-links-mobile" : "nav-links"}>
       
-      <Link to='#home'>
-      <a href="/home" className="link home__btn font-medium py-2 ">Home</a>
-      </Link>
-      <Link to='#home'>
-      <a href="/home" className="link home__mobile__btn font-medium py-2 ">Home</a>
-      </Link>
-      <Link to='#about'>
-      <a href="/about" className=" link font-medium px-3 py-2 ">About me</a>
-      </Link>
-      <Link to='#projects'>
-      <a href="/my_projects" className=" link font-medium px-3 py-2 ">My projects</a>
-      </Link>
-      <Link to='#skills'>
-      <a href="/Skills" className="link font-medium px-3 py-2 ">Skills</a>
-      </Link>
-      <Link to='#contacts'>
-      <a href="/contact_me" className="link font-medium px-3 py-2 ">Contact me</a>
-      </Link>
+      <Link to='#home' href="/home" className="link home__btn font-medium py-2 ">Home</Link>
+      <Link to='#home' href="/home" className="link home__mobile__btn font-medium py-2"> Home </Link>
+      <Link to='#about' href="/about" className=" link font-medium px-3 py-2 ">About me</Link>
+      <Link to='#projects' href="/my_projects" className=" link font-medium px-3 py-2 ">My projects</Link>
+      <Link to='#skills' href="/Skills" className="link font-medium px-3 py-2 ">Skills</Link>
+      <Link to='#contacts' href="/contact_me" className="link font-medium px-3 py-2 ">Contact me</Link>
     </nav>
     </div>
 

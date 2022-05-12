@@ -1,24 +1,28 @@
 import React from 'react';
 import './Skills.css';
+import * as SiIcons from 'react-icons/si';
 
 
 const Skills = () => {
   return (
-    <div className="skills__container flex flex-col text-rose-600" id="skills">
+    <div className="skills__container flex flex-col content-center  text-rose-600" id="skills">
     <div className="text-3xl font-bold p-10 text-center">
         <h1>SKILLS</h1>
     </div>
-    <div className="skill__box grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 justify-center gap-5 ml-20 mr-20 mt-5 mb-5">
-        <img src="https://i.stack.imgur.com/PgcSR.png" height="auto" width="80px" alt="HTML" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63s_TKNEbSDyCnpko2aIn2c4cCiuvh1chFaxyXPpChmvugRWHqyje2cMi-d0FuEYkYu8&usqp=CAU" height="auto" width="90px" alt="CSS" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFFjtYIl7BYgTkanKFI__Vaqbzr5JkKjVxwAmJcdXceW16zqKjLfCa3Xj2BrnorHcLd4&usqp=CAU" height="auto" width="90px" alt="React" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" height="auto" width="100px" alt="Redux" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnWjJ6NuYgr0NQgHVzq55uPhGa7bbGsFU3_Is8hMaCZHoFw3rctcRT2RSGPNCfSK5Q4g&usqp=CAU" height="auto" width="90px" alt="Bootstrap" />
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--zKQJKp9C--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/1jqa96mtdymq7ydgjqf1.png" height="auto" width="90px" alt="Tailwind" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="auto" width="80px" alt="Javascript" />    
-    
+    <div className="skill__box">
+    <div className="grid lg:grid-cols-9 md:grid-cols-5 sm:grid-cols-4 gap-20 text-neutral-400">
+        <SiIcons.SiJavascript className="skill__icons" />
+        <SiIcons.SiCss3 className="skill__icons"/>
+        <SiIcons.SiHtml5 className="skill__icons"/>
+        <SiIcons.SiRedux className="skill__icons"/>
+        <SiIcons.SiReact className="skill__icons"/>
+        <SiIcons.SiBootstrap className="skill__icons"/>
+        <SiIcons.SiTailwindcss className="skill__icons"/>
+        <SiIcons.SiFirebase className="skill__icons"/>
+        <SiIcons.SiGithub className="skill__icons"/>
     </div>
-        </div>
+    </div>
+    </div>
   )
 }
 

@@ -7,7 +7,6 @@
     font-size: 1.2rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.9);
-    
 }
 
 .project-title {
@@ -28,7 +27,6 @@ height: auto;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
 padding: 40px;
-
 }
 
 .project__left {
@@ -45,7 +43,6 @@ padding: 40px;
     font-size: 1.2rem;
     margin: 10px 0;
     cursor: pointer;
-
 }
 
 
@@ -68,8 +65,5 @@ padding: 40px;
 .project__right, .project__left {
     padding: 20px 40px;
     width: 80vw;
-    
     }
-
-
 }

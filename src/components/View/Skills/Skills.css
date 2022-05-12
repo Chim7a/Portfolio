@@ -3,8 +3,16 @@
 }
 
 .skill__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
-    margin: 0 60px 60px 60px;
+    margin: 0 60px 40px 60px;
     padding: 40px;
-    
+}
+
+.skill__icons {
+    width: 75px;
+    height: auto;
+    padding-right: 20px;
 }
