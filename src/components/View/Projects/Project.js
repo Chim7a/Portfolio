@@ -1,131 +1,47 @@
 import React from 'react';
-import amazon from './amazon.jpg';
-import todo from './todo.png';
-import movie from './movie.png';
 import './Project.css';
+import ProjectData from "./ProjectData.json";
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
 
 const Project = () => {
   return (
     <div className="project" id='projects'>
+
       <span className="text-3xl text-center font-bold pb-10 text-rose-600">MY PROJECTS</span>
 
-        {/* Amazon web page project */}
-        <div className="project__container">
-        <div className="project__left">
-        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Amazon Clone</h2>
-        <img src={amazon} alt="amazon-clone-img" />
-        <span className="project__icons"> 
-          <a href="https://clone-47f95.web.app" alt="amazone-live-link" rel="noreferrer" target="_blank"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a href="https://github.com/Chim7a/amazon-cloning.git" alt="Amazon-clone-source" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600" /> Source code</a>
-        </span>
+      {ProjectData.projects.map((project, i) => (
+        <div key={i} className="project__container">
+
+          <div className="project__left">
+
+            <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">{project.title}</h2>
+            <img src={`${project.url}`} alt={project.imageDescripton} />
+
+            <div className="project__icons"> 
+              <a href={project.previewLink} alt={project.previewDescripton} target="_blank" rel="noreferrer"><MdIcons.MdOutlineLiveTv className="text-rose-600" /> {project.preview}</a>
+              <a href={project.sourceLink} alt={project.sourceDescripton} target="_blank" rel="noreferrer"><VscIcons.VscSourceControl className="text-rose-600" />{project.source}</a>
+            </div>
+
+          </div>
+          
+          <div className="project__right">
+
+            <h4 className="project-title font-bold">Technologies Used</h4>
+            <p>{project.technologies}</p>
+
+            <h2 className="project-title font-bold">My Role</h2>
+            <p>{project.role}</p>
+          
+            <h4 className="project-title font-bold">Project Difficulties</h4>
+            <p>{project.difficulties}</p>
+          
+            <h4 className="project-title font-bold">Solution</h4>
+            <p>{project.solutions}</p>
+
+          </div>     
         </div>
-
-        <div className="project__right">
-        <h4 className="project-title font-bold">Technologies Used</h4>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Firebase</li>
-            <li>Context API</li>
-            <li>React</li>
-        </ul>
-        <h2 className="project-title font-bold">My Role</h2>
-        <p>This was a fun project that was meant to display more of
-          my technical skills. It displays my ability to work through a
-          complex problem and find a solution using appropriate
-          data structures while doing so. </p>
-
-        <h4 className="project-title font-bold">Project Difficulties </h4>
-        <p>This project tested my abilites in dveloping a
-            workable solution to problems. At the start of development process,
-            there was no laid out plan or structure to follow, which resulted to wasting two weeks worth of work before i
-            was forced to start over.</p>
-
-        <h4 className="project-title font-bold">Solution</h4>
-        <p>To solve this problem, adoption of a planning structure was key in 
-          improving work effieciency and accelerating task.
-        </p>
-        </div>
-        </div>
-        
-        {/* Todo-list project  */}
-
-        <div className="project__container">
-        <div className="project__left">
-        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Todo List App</h2>
-        <img src={todo} alt="todo-app-img" />
-        <span className="project__icons"> 
-          <a href="https://todoapp-10363.web.app" alt="todo__list__live-link" rel="noreferrer" target="_blank"><MdIcons.MdOutlineLiveTv className="text-rose-600"/> Live Preview</a>
-          <a href="https://github.com/Chim7a/todo_list.git" alt="todo__list__github__link" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
-        </span>
-
-        </div>
-
-        <div className="project__right">
-        <h4 className="project-title font-bold">Technologies Used</h4>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>React</li>
-        </ul>
-        <h2 className="project-title text-2xl font-bold">My Role</h2>
-        <p>Created functionalities such as add and delete which are useful when developing different types of projects.
-        </p>
-
-        <h4 className="project-title font-bold">Project Difficulties </h4>
-        <p>On this project, i got stuck a few times and did'nt understand the solutions provided on stack-overflow and 
-          slowed down my progress moving forward.
-        </p>
-
-        <h4 className="project-title font-bold">Solution</h4>
-        <p>Asking questions were really helpful to progress in this project. Found courage in asking questions from mentors
-           no matter how little or silly i find them to be.
-        </p>
-        </div>
-        </div>
-
-        {/* Movie app div propject */}
-
-        <div className="project__container">
-        <div className="project__left">
-        <h2 className="text-3xl text-center font-bold pb-10 text-rose-600">Movie Website</h2>
-        <img src={movie} alt="movie-web-img" />
-        <span className="project__icons"> 
-          <a href="#/Flix" alt="live-link" ><MdIcons.MdOutlineLiveTv className="text-rose-600" /> Live Preview</a>
-          <a href="https://github.com/Chim7a/movie_filter.git" alt="movie__github__link" rel="noreferrer" target="_blank"><VscIcons.VscSourceControl className="text-rose-600"/> Source code</a>
-        </span>
-
-        
-        </div>
-
-        <div className="project__right">
-        <h4 className="project-title font-bold">Technologies Used</h4>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SCSS</li>
-            <li>Javascript</li>
-            <li>React</li>
-        </ul>
-        <h2 className="project-title font-bold">My Role</h2>
-        <p> This project involved me developing, designing and providing filter functionality of the website. 
-        </p>
-
-        <h4 className="project-title font-bold">Project Difficulties </h4>
-        <p>Time management was a hinderance in completing this task on time, as the estimated time set by myself for
-         this project was not met. </p>
-
-        <h4 className="project-title font-bold">Solution</h4>
-        <p>To solve this issue, i resulted in breaking down tasks to be carried out and broke them into smaller units.
-          I found this to be less overwhelming as i progressed through the project. Also made sure to time myself
-           appropriately and complete task at each given time frame.
-        </p>
-        </div>
-        </div>
+      ))}
     </div>
   )
 }

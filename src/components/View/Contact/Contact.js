@@ -8,7 +8,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact" id='contacts'>
-        <h4 className="text-3xl font-bold text-center text-rose-600">CONTACT</h4>
+        <h4 className="text-3xl font-bold text-center mb-10 text-rose-600">CONTACT</h4>
       <div className="contact__container grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 " id="contact">
 
       {/* Address info section */}

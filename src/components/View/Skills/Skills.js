@@ -14,7 +14,6 @@ const Skills = () => {
         <SiIcons.SiJavascript className="skill__icons" />
         <SiIcons.SiCss3 className="skill__icons"/>
         <SiIcons.SiHtml5 className="skill__icons"/>
-        <SiIcons.SiRedux className="skill__icons"/>
         <SiIcons.SiReact className="skill__icons"/>
         <SiIcons.SiBootstrap className="skill__icons"/>
         <SiIcons.SiTailwindcss className="skill__icons"/>
